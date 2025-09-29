@@ -1,0 +1,3 @@
+:pdf-fontsdir: {asciidoctorconfigdir}/config/fonts
+:pdf-themesdir: {asciidoctorconfigdir}/config/themes
+:pdf-theme: zh_TW
