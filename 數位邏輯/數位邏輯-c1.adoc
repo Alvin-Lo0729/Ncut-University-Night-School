@@ -9,19 +9,18 @@ v1.0, {docdate}
 :toc-title: 大綱
 :toclevels: 4
 :reproducible:
-:imagesdir: ../images/數位邏輯概論
 :hardbreaks-option:
 :hide-uri-scheme:
 :url-org: https://github.com/Alvin-Lo0729
 :url-repo: {url-org}/Ncut-University-Night-School
 ifdef::env-site[:url-project: link:]
 :url-rel-file-base: link:
+:url-rel-tree-base: link:
 ifdef::env-site,env-yard[]
-
-:url-rel-file-base: {url-repo}/blob/master/images/%E6%95%B8%E4%BD%8D%E9%82%8F%E8%BC%AF%E6%A6%82%E8%AB%96/
-
+:url-rel-file-base: {url-repo}/blob/HEAD/
+:url-rel-tree-base: {url-repo}/tree/HEAD/
 endif::[]
-
+:stylesheet: ./doc/css/adoc-colony.css
 
 == 編碼介紹
 
@@ -31,7 +30,7 @@ ASCII (American Standard Code for Information Interchange) 是一種字符編碼
 
 每個ASCII都是由7個bit組成
 
-image::/ascii.jpg[aa]
+image::../images/數位邏輯概論/ascii.jpg[aa]
 
 ==== 區域
 前面是描述區域ZONE的部分，佔3bit，期區域是代表類型的意思
@@ -77,7 +76,7 @@ a為 110 0001 、 b為 110 0010 、 z為 111 1010
 
 ==== ASCII碼對照表
 
-image::/ascii對照.jpg[dd]
+image::../images/數位邏輯概論/ascii對照.jpg[dd]
 
 如果要表示字母A，則為 100 0001
 如果要表示數字1，則為 011 0001
@@ -98,7 +97,7 @@ image::/ascii對照.jpg[dd]
 
 ===== 取得漢明碼總位數
 
-image::/漢明碼編碼計算方式.jpg[aa]
+image::../images/數位邏輯概論/漢明碼編碼計算方式.jpg[aa]
 
 此計算方式為漢明碼編碼所需長度的計算方式，2^P >= M + P + 1
 
@@ -118,7 +117,7 @@ M = 資料位元數
 
 所以同位位元的位置為1、2、4、8
 
-image::/決定同位位元的位置.jpg[]
+image::../images/數位邏輯概論/決定同位位元的位置.jpg[]
 
 P為同位元資料位置與原本資料的位置
 
