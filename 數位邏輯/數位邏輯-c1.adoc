@@ -7,8 +7,9 @@ v1.0, {docdate}
 :sectnums:
 :toc: left
 :toc-title: 大綱
-:toclevels: 2
+:toclevels: 4
 :reproducible:
+:imagesdir: ../images/數位邏輯概論
 :hardbreaks-option:
 :hide-uri-scheme:
 :url-org: https://github.com/Alvin-Lo0729
@@ -28,7 +29,7 @@ ASCII (American Standard Code for Information Interchange) 是一種字符編碼
 
 每個ASCII都是由7個bit組成
 
-image::../images/ascii.jpg[aa]
+image::/ascii.jpg[aa]
 
 ==== 區域
 前面是描述區域ZONE的部分，佔3bit，期區域是代表類型的意思
@@ -74,7 +75,7 @@ a為 110 0001 、 b為 110 0010 、 z為 111 1010
 
 ==== ASCII碼對照表
 
-image::../images/ascii對照[]
+image::/ascii對照.jpg[dd]
 
 如果要表示字母A，則為 100 0001
 如果要表示數字1，則為 011 0001
@@ -86,6 +87,40 @@ image::../images/ascii對照[]
 當想表示字母A時 其二進至為 100 0001，則轉換16進制為 41，轉換10進制為 65
 
 當享表示數字1時 其二進至為 011 0001，則轉換16進制為 31，轉換10進制為 49
+
+=== 漢明碼
+
+漢明碼（Hamming Code）是一種用於檢測和糾正數據傳輸或存儲過程中發生的錯誤的編碼技術。
+
+==== 漢明碼計算方式
+
+===== 取得漢明碼總位數
+
+image::/漢明碼編碼計算方式.jpg[aa]
+
+此計算方式為漢明碼編碼所需長度的計算方式，2^P >= M + P + 1
+
+P = 檢查位元數
+M = 資料位元數
+
+如資料長度為8bit，則依照公式 2^P >= 8 + P + 1，則P需等於4，公式才會成立，所以漢明碼長度為2^4 = 16，檢查位元數量為4，資料位元數為8
+
+===== 決定漢明碼同位位元的位置
+
+依照上面的例子，檢查位元數量為4，其同位位元的位置須放在2的0到N次方的位置，以此為例
+
+2^0 = 1
+2^1 = 2
+2^2 = 4
+2^3 = 8
+
+所以同位位元的位置為1、2、4、8
+
+image::/決定同位位元的位置.jpg[]
+
+P為同位元資料位置與原本資料的位置
+
+===== 決定同位位元資料內容
 
 
 
