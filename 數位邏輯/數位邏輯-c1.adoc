@@ -13,7 +13,7 @@ v1.0, {docdate}
 :hardbreaks-option:
 :hide-uri-scheme:
 :url-org: https://github.com/Alvin-Lo0729
-:url-repo: {url-org}/effect-java
+:url-repo: {url-org}/Ncut-University-Night-School
 ifdef::env-site[:url-project: link:]
 :url-rel-file-base: link:
 ifdef::env-site,env-yard[]
