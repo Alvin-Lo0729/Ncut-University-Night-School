@@ -17,7 +17,7 @@ v1.0, {docdate}
 ifdef::env-site[:url-project: link:]
 :url-rel-file-base: link:
 ifdef::env-site,env-yard[]
-:url-rel-file-base: {url-repo}/blob/master/images/%E6%95%B8%E4%BD%8D%E9%82%8F%E8%BC%AF%E6%A6%82%E8%AB%96/
+:url-rel-file-base: {url-repo}/blob/master/images/數位邏輯概論/
 endif::[]
 
 
