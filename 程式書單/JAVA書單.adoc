@@ -1,0 +1,86 @@
+= 程式書單
+羅星傑 <alvin@e-mon.com.tw>
+v1.0, {docdate}
+:doctype: book
+:experimental:
+:icons: font
+:sectnums:
+:toc: left
+:toc-title: 大綱
+:toclevels: 4
+:reproducible:
+:hardbreaks-option:
+:hide-uri-scheme:
+:url-org: https://github.com/Alvin-Lo0729
+:url-repo: {url-org}/Ncut-University-Night-School
+ifdef::env-site[:url-project: link:]
+:url-rel-file-base: link:
+:url-rel-tree-base: link:
+ifdef::env-site,env-yard[]
+:url-rel-file-base: {url-repo}/blob/HEAD/
+:url-rel-tree-base: {url-repo}/tree/HEAD/
+endif::[]
+:stylesheet: ./doc/css/adoc-colony.css
+
+== 核心能力
+
+. JAVA
+
+.. Head First Java(第2版)中文版.pdf
+LINK： https://pan.baidu.com/s/1s6OL72c4HWlgDRgWssDoJQ
+密碼: e6j1
+
+.. SPRING FRAMEWORK
+... SPRING BOOT
+... SPRING SECURITY
+... SPRING DATA JPA
+
+.. EFFECTIVE JAVA
+
+.. Java核心技術 卷I 基礎知識
+
+. UML學習
+
+.. PLANTUML
+
+. 文件設計學習
+.. markdown
+.. asciidoctor
+
+. DB
+.. 關聯式SQL標準語法
+.. NoSQL(MongoDB、Redis)
+
+. 前端基礎語法(HTML、CSS、JS)與JS進階框架(VUE、REACT)
+
+. Linux基礎指令與Shell Script
+. 網路基礎(HTTP、TCP/IP、DNS、CDN、SSL)
+. 版本控制(Git、GitHub、GitLab)
+. IDE(IntelliJ IDEA)
+. 建置工具(Maven、Gradle)
+. 容器技術(Docker、Kubernetes)
+. 持續整合/持續部署(CI/CD)
+. 單元測試(JUnit、Mockito)
+. RESTful API設計
+
+
+== 程式心法???
+
+. SOLID原則(網路資源)
+
+. 深入淺出-設計模式
+
+. 重構
+
+. CLEAN CODE系列套書
+
+. 物件導向程式開發
+
+. 演算法
+
+
+== 其他
+
+. 試著使用AI協助開發
+
+. AI相關開發
