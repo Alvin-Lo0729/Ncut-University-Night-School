@@ -20,7 +20,6 @@ ifdef::env-site,env-yard[]
 :url-rel-file-base: {url-repo}/blob/HEAD/
 :url-rel-tree-base: {url-repo}/tree/HEAD/
 endif::[]
-:stylesheet: ./doc/css/adoc-colony.css
 
 == 核心能力
 
